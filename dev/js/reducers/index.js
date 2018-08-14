@@ -1,9 +1,8 @@
 import {combineReducers} from 'redux';
-import ActiveAddressReducer from './reducer-address-selection';
-import AddressListReducer from './reducer-address-list';
+
+import MarkListReducer from './reducer-mark-list';
 const allReducers = combineReducers({
-	addressList:AddressListReducer,
-	selected:ActiveAddressReducer
+	markList:MarkListReducer
 });
 
 export default allReducers;
